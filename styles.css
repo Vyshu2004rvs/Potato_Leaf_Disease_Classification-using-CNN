@@ -1,0 +1,97 @@
+/* ===== Global Styles ===== */
+body {
+    background-image: url('background1.png'); /* Path to your image file */
+    background-size:cover;       /* Makes sure the image covers the entire background */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  
+  
+  /* Header */
+  .header {
+    background-color: #5e5e5ebb;
+    color: #fff;
+    padding: 25px;
+    font-size: 24px;
+  }
+  
+  /* Main Container */
+  .container {
+    max-width: 600px;
+    max-height:fit-content;
+    margin: 40px auto;
+    background: #ffffff9b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.361);
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0 0 20px;
+    color: #333;
+  }
+  
+  /* Drop Area */
+  .drop-area {
+    border: 1px dashed #cccccceb;
+    border-radius: 8px;
+    padding: 30px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.2s;
+  }
+  
+  .drop-area:hover {
+    background-color: #f8f8f8;
+  }
+  
+  .drop-area.dragover {
+    background-color: #eaeaea;
+    border-color: #333;
+  }
+  
+  /* Upload Icon */
+  #upload-icon {
+    width: 50px;
+    margin-top: 10px;
+  }
+  
+  #dragText {
+    margin: 0;
+  }
+  
+  /* Preview Image */
+  .preview-image {
+    max-width: 100%;
+    margin-top: 0px;
+    display: none; /* hidden by default */
+  }
+  
+  /* Buttons */
+  .button-row {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #ff5757c2;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  
+  button:hover {
+    background-color: #ff5757;
+  }
+  
+  /* Result Section */
+  #result {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+  }
+  

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Potato Disease Classification</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">Potato Leaf Disease Classification</div>
+
+  <!-- Main Container -->
+  <div class="container">
+    <h1 id="heading">Drag and Drop or Upload an Image of a Potato Leaf to Predict the Disease</h1>
+
+    <!-- Drop Area -->
+    <div id="drop-area" class="drop-area">
+      <p id="dragText">Drag & Drop or Click to Select</p>
+      <img src="upload-icon.png" alt="Upload Icon" id="upload-icon" />
+    </div>
+
+    <!-- Hidden File Input -->
+    <input type="file" id="fileInput" accept="image/*" style="display: none;" />
+
+    <!-- Preview of Selected Image -->
+    <img id="preview" class="preview-image" alt="Preview" />
+
+    <!-- Buttons -->
+    <div class="button-row">
+      <button id="uploadBtn">Upload Image</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+
+    <!-- Result Section -->
+    <div id="result"></div>
+  </div>
+
+  <!-- Link to external JS -->
+  <script src="script.js"></script>
+</body>
+</html>
